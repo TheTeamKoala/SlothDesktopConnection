@@ -1,9 +1,11 @@
 import urllib.request
 import json      
+import sys
+
+firstName = sys.argv[2]
+lastName = sys.argv[3]
 
 
-firstName = "Kucuk"
-lastName = "lalem"
 
 body = {'firstName': firstName, 'lastName': lastName}
 
