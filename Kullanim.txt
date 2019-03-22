@@ -1,0 +1,18 @@
+						       -KULLANIM
+
+get_order       	//		python mainPy.py get_order 2     						idsi 2 olan orderi doner.			         
+delete_order		//		python mainPy.py delete_order 2     				    idsi 2 olan orderi siler.
+post_order			//		python mainPy.py post_order 1 3333 1 1                  order ekler. sirasi ile  id , date , quantity , 																						product_ID
+get_all_order       //		python mainPy.py get_all_order   						tum orderlari doner.
+
+
+get_id               // python mainPy.py get_id 1     idsi 1 olan urunu doner.
+get_all_fridge       // python mainPy.py get_all_fridge
+get_all_product      // python mainPy.py get_all_product
+delete               // python mainPy.py delete Fanta (Fanta dersek buzdolabindan fantayi cikarir)     or   python mainPy.py delete 1 (							idsi 1 olan urunu product table dan cikarir.)
+add                  //python mainPy.py add Fanta   product table a daha once eklenmis urunu buzdolabina ekler.
+post  			     //python mainPy.py post 1 6 Pattis yok Vegetable 2 TL KG 1234121421   seklinde product table a urun ekler. sirasiyla 						girilmeli   sirasi   ->>> inTheFridge , id , name , brand , category , price , price_UNIT , physical_UNIT, first_DATE
+
+
+
+ALL WORKING
